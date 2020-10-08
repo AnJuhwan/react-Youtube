@@ -2,8 +2,9 @@ import stlyes from './search_header.module.css';
 
 import React from 'react';
 import { useRef } from 'react';
+import { memo } from 'react';
 
-const SearcHeader = ({onSearch}) => {
+const SearcHeader = memo(({onSearch}) => {
     const inputRef =useRef();
 
     const handleSearch = () => {
@@ -33,7 +34,7 @@ const SearcHeader = ({onSearch}) => {
             </button>
         </header>
     )
-}
+});
 
 
 export default SearcHeader;
