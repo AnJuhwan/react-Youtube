@@ -23,7 +23,7 @@ const SearcHeader = ({onSearch}) => {
     return(
         <header className={stlyes.header}>
             <div className={stlyes.logo}>
-                <img src={process.env.PUBLIC_URL+'/build/images/logo.png'} alt="logo" className={stlyes.img} />
+                <img src={process.env.PUBLIC_URL+'/images/logo.png'} alt="logo" className={stlyes.img} />
                 <h1 className={stlyes.title}>Youtube</h1>
             </div>
             <input ref={inputRef}  className={stlyes.input} type="search" placeholder="Search..." onKeyPress={onKeyPress}/>
