@@ -23,14 +23,13 @@ const SearcHeader = ({onSearch}) => {
     return(
         <header className={stlyes.header}>
             <div className={stlyes.logo}>
-                <img src="http://localhost:3000/react-Youtube/images/logo.png" alt="logo" className={stlyes.img} />
-                {/* {process.env.PUBLIC_URL+'/images/logo.png'} */}
+                <img src={process.env.PUBLIC_URL+'/images/logo.png'} alt="logo" className={stlyes.img} />
                 <h1 className={stlyes.title}>Youtube</h1>
             </div>
             <input ref={inputRef}  className={stlyes.input} type="search" placeholder="Search..." onKeyPress={onKeyPress}/>
             <button  className={stlyes.button} type="submit" onClick={onClick}>
-                <img src="http://localhost:3000/react-Youtube/images/search.png" alt="search" className={stlyes.buttonImg} />
-                {/* {process.env.PUBLIC_URL+'/images/search.png'} */}
+                <img src={process.env.PUBLIC_URL+'/images/search.png'} alt="search" className={stlyes.buttonImg} />
+                
             </button>
         </header>
     )
