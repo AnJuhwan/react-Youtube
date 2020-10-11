@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-Youtube/static/css/main.d43632fe.chunk.css",
+    "main.css": "/react-Youtube/static/css/main.2ebe49f2.chunk.css",
     "main.js": "/react-Youtube/static/js/main.86eabbee.chunk.js",
     "main.js.map": "/react-Youtube/static/js/main.86eabbee.chunk.js.map",
     "runtime-main.js": "/react-Youtube/static/js/runtime-main.bd188829.js",
@@ -8,15 +8,15 @@
     "static/js/2.4a3b0c0c.chunk.js": "/react-Youtube/static/js/2.4a3b0c0c.chunk.js",
     "static/js/2.4a3b0c0c.chunk.js.map": "/react-Youtube/static/js/2.4a3b0c0c.chunk.js.map",
     "index.html": "/react-Youtube/index.html",
-    "precache-manifest.837dbf04e4a1e8a60be643ad9a5de8a7.js": "/react-Youtube/precache-manifest.837dbf04e4a1e8a60be643ad9a5de8a7.js",
+    "precache-manifest.7e2e862ccb10d77ce2f37ee2f85521e4.js": "/react-Youtube/precache-manifest.7e2e862ccb10d77ce2f37ee2f85521e4.js",
     "service-worker.js": "/react-Youtube/service-worker.js",
-    "static/css/main.d43632fe.chunk.css.map": "/react-Youtube/static/css/main.d43632fe.chunk.css.map",
+    "static/css/main.2ebe49f2.chunk.css.map": "/react-Youtube/static/css/main.2ebe49f2.chunk.css.map",
     "static/js/2.4a3b0c0c.chunk.js.LICENSE.txt": "/react-Youtube/static/js/2.4a3b0c0c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bd188829.js",
     "static/js/2.4a3b0c0c.chunk.js",
-    "static/css/main.d43632fe.chunk.css",
+    "static/css/main.2ebe49f2.chunk.css",
     "static/js/main.86eabbee.chunk.js"
   ]
 }
